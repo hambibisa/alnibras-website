@@ -1,14 +1,14 @@
 {
-  "name": "Next Dev",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-22",
+  "name": "Al Nibras Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bullseye",
   "forwardPorts": [3000],
   "customizations": {
     "vscode": {
       "extensions": [
         "esbenp.prettier-vscode",
-        "ms-vscode.vscode-typescript-next"
+        "bradlc.vscode-tailwindcss"
       ]
     }
   },
-  "postCreateCommand": "npm install"
+  "postCreateCommand": "echo 'Container created successfully. Ready to build the project.'"
 }
